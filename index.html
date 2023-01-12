@@ -346,14 +346,14 @@
     crossorigin="anonymous"></script>
   <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-1-11/js/5-1-11.js"></script>
   <script>
-    $(".openbtn1").click(function () {//ボタンがクリックされたら
-      $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
-      $("#header-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+    $(".openbtn1").click(function () {
+      $(this).toggleClass('active');
+      $("#header-nav").toggleClass('panelactive');
     });
 
-    $("#header-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
-      $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
-      $("#header-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+    $("#header-nav a").click(function () {
+      $(".openbtn1").removeClass('active');
+      $("#header-nav").removeClass('panelactive');
     });
   </script>
 </body>
